@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Opinnio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_api_key">AIzaSyCL7R3pB8aAuFh4QX7_Kxr0mZI2lmO8ppQ</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="gg">MapsActivity</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="users">Users</string>
+    <string name="pubs">Pubs</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile_picture_of_comment_author">Profile picture of comment author</string>
+    <string name="create_new_post_button">Create new post button</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="profile_photo">Profile photo</string>
+    <string name="edit_photo">Edit photo</string>
+    <string name="nom_complet">Nom Complet</string>
+    <string name="email_exemple_com">email@exemple.com</string>
+    <string name="modifier_le_profil">Modifier le profil</string>
+    <string name="entrez_votre_nouveau_nom_d_utilisateur">Entrez votre nouveau nom d\'utilisateur</string>
+    <string name="annuler">Annuler</string>
+    <string name="erreur">Erreur: %1$s</string>
+    <string name="nom_mis_jour">Nom mis à jour</string>
+    <string name="modifier_votre_commentaire">Modifier votre commentaire</string>
+    <string name="crivez_ici">Écrivez ici...</string>
+    <string name="profile_picture">Photo de profile</string>
+</resources>

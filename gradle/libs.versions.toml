@@ -1,0 +1,60 @@
+[versions]
+activityVersion = "1.9.0"
+agp = "8.7.2"
+appcompatVersion = "1.7.0"
+compiler = "4.16.0"
+coreKtxVersion = "1.12.0"
+firebaseAuthKtxVersion = "22.3.1"
+firebaseFirestore = "25.1.4"
+googleServicesVersion = "4.4.2"
+gradle = "8.1.4"
+json = "20231013"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+kotlinxCoroutinesAndroid = "1.7.3"
+material = "1.12.0"
+constraintlayout = "2.1.4"
+firebaseDatabaseKtx = "21.0.0"
+materialVersion = "1.9.0"
+okhttp = "4.12.0"
+playServicesLocation = "21.0.1"
+androidxCoreKtx = "1.12.0"
+playServicesMaps = "19.2.0"
+playServicesCastTv = "21.1.1"
+runner = "1.5.2"
+volley = "1.2.1"
+
+[libraries]
+androidx-activity-v1101 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+androidx-appcompat-v170 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-core-ktx-v1120 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+firebase-auth-ktx-v2231 = { module = "com.google.firebase:firebase-auth-ktx", version.ref = "firebaseAuthKtxVersion" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "compiler" }
+google-services-v442 = { module = "com.google.gms:google-services", version.ref = "googleServicesVersion" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+json = { module = "org.json:json", version.ref = "json" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlinxCoroutinesAndroid" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtxVersion" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+play-services-cast-tv = { group = "com.google.android.gms", name = "play-services-cast-tv", version.ref = "playServicesCastTv" }
+androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version = "1.9.22" }

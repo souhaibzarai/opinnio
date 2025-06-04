@@ -1,0 +1,14 @@
+{
+  "infos": {
+    "firebase": "firestore - authentication",
+    "add indexes for firestore": {
+      "Collection ID": "notifications",
+      "Fields indexed ": {
+        "toUserId": "Ascending",
+        "createdAt": "Descending"
+      },
+      "Query scope": "Collection"
+    },
+    "package_name": "com.example.opinnio"
+  }
+}

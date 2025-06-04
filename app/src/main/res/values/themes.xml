@@ -1,0 +1,13 @@
+<resources >
+    <!-- Base application theme. -->
+    <style name="Base.Theme.opinnio" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@color/colorOnSurface</item>
+
+        <!-- Android 12+ splash screen config -->
+        <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>
+    </style>
+
+    <!-- Main app theme -->
+    <style name="Theme.opinnio" parent="Base.Theme.opinnio" />
+</resources>

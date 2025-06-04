@@ -1,0 +1,72 @@
+plugins {
+    id 'kotlin-kapt'
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    alias(libs.plugins.jetbrainsKotlinAndroid)
+}
+
+android {
+    namespace 'com.example.opinnio'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.example.opinnio'
+        minSdk 31
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation libs.firebase.firestore
+    implementation libs.androidx.core.ktx.v1120
+    implementation libs.androidx.appcompat
+    implementation libs.material.v190
+    implementation libs.androidx.constraintlayout
+    implementation libs.glide
+    implementation libs.play.services.maps
+    implementation libs.play.services.cast.tv
+    implementation libs.androidx.runner
+    implementation libs.volley
+    implementation libs.okhttp
+    kapt libs.compiler
+
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.kotlinx.coroutines.play.services
+    // Firebase
+    implementation libs.firebase.auth.ktx.v2231
+    implementation libs.firebase.database.ktx
+
+    // Location
+    implementation libs.play.services.location
+    implementation libs.core.ktx
+
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+
+    implementation libs.androidx.appcompat.v170
+    implementation libs.androidx.activity.v1101
+
+    implementation libs.material
+    implementation libs.okhttp
+    implementation libs.json
+}

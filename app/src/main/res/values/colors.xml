@@ -1,0 +1,44 @@
+<resources>
+    <!-- Primary Branding -->
+    <color name="colorPrimary">#ff695d</color> <!-- Coral red primary -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Background / Surfaces -->
+    <color name="colorBackground">#F8F9FA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#212529</color>
+
+    <!-- Accent / Highlights -->
+    <color name="colorAccent">#FFB3B3</color> <!-- Light coral accent -->
+    <color name="colorSuccess">#28A745</color>
+    <color name="colorError">#DC3545</color>
+
+    <!-- System Elements -->
+    <color name="statusBarColor">#E55353</color>
+    <color name="navigationBarColor">#E55353</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Typography / Elements -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6C757D</color>
+
+    <!-- Navigation Colors -->
+    <color name="nav_selected">#FF6B6B</color>
+    <color name="nav_unselected">#ADB5BD</color>
+    <color name="nav_background">#FFFFFF</color>
+
+    <!-- Splash screen -->
+    <color name="splash_background">#FF6B6B</color>
+
+    <color name="colorPrimaryLight">#FFF5F5</color>
+    <color name="colorAccentLight">#FFEBEB</color>
+    <color name="colorErrorLight">#F8D7DA</color>
+
+    <!-- Surface and divider colors -->
+    <color name="colorDivider">#DEE2E6</color>
+
+    <!-- Additional accent color -->
+
+    <!-- Dark primary for gradient -->
+    <color name="colorPrimaryDark">#C82333</color>
+</resources>
